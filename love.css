@@ -58,7 +58,7 @@ button{
     margin: 10px;
 }
 @media only screen and (max-width:770px){
-    *{background-image:url(back.png);
+    body{background-image:url(back.png);
      background-size:cover;
      background-repeat:no-repeat;
     }
