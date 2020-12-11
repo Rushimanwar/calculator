@@ -48,7 +48,7 @@ input{
     text-align: center;
 }
 button{
-    color: #fff;
+    color: #111;
     background-color: springgreen;
     border: 2px solid;
     border-image-source:  linear-gradient(to top left,red,yellow ,blue);
