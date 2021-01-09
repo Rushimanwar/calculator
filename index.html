@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOVE CALCULATER</title>
-   <link rel="stylesheet" href="love.css">
+   <link rel="stylesheet" href="style.css">
    <link rel="shortcut icon" href="logo.png">
     </head>
 <body>
+    <div class="sec">
     <header>
         <div class="h" >calculate your love percentege</div>
         <div class="c">
             <div class="center">
                 <div class="form1">
-                    <input type="text" placeholder="Your Name">
+                    <input type="text" placeholder="Your Name" maxlength="15">
                 </div>
-                <div><nav>+</nav></div>
+                <nav style="color: red; font-size: 40px;">+</nav>
                 <div class="form1">
-                    <input type="text" placeholder="LOve Name">
+                    <input type="text" placeholder="LOve Name" maxlength="15">
                 </div>
             </div>
             <div>
                 <button onclick="love()">Calculate</button>
             </div>
-            <div><input type="text" id="lover" placeholder="Result"></div>
+            <div><input type="text" id="lover" value="Result"></div>
         </div>
         <div class="f">God Bless your Relationship</div>
     </header>
-
+</div>
     <script>
         function love(){
             var lovedata = Math.random()*100;
